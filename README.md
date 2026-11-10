@@ -1,4 +1,3 @@
-   # CAP 3764 — Final Project: US Cost-of-Living Tracker
 
    ## Topic
    Tracking U.S. cost-of-living pressure through monthly grocery and gas prices (2015–2026).
@@ -18,7 +17,8 @@
    4. Launch JupyterLab and select the environment's kernel
 
    ## Folder structure
-   - `src/` — data collection module
-   - `data_collection.ipynb` — loads and cleans the dataset
-   - `us_average_prices_monthly.csv` — raw dataset
+   - `data/` — raw dataset (`us_average_prices_monthly.csv`)
+   - `notebooks/` — analysis notebooks (`data_collection.ipynb`)
+   - `src/` — reusable Python code (data loading, cleaning, evaluation)
+   - `reports/` — executive summary report
    - `environment.yml` — conda environment spec
