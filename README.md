@@ -1,3 +1,4 @@
+# US Cost-of-Living Tracker: Grocery and Gas Prices
 
 ## Topic
 
@@ -23,7 +24,7 @@ Regression problem: predicting item price based on item type and date.
 ## Folder structure
 
 - `data/` — raw dataset (`us_average_prices_monthly.csv`)
-- `notebooks/` — analysis notebooks (`data_collection.ipynb`, `03_linear_models.ipynb`)
+- `notebooks/` — analysis notebooks (`data_collection.ipynb`, `02_eda.ipynb`, `03_linear_models.ipynb`, `04_tree_models.ipynb`) and `figures/` (report figures)
 - `src/` — reusable Python code (data loading, cleaning, evaluation)
 - `reports/` — executive summary report
 - `team3-grocery-gas-env.yml` — version-pinned Conda environment specification
